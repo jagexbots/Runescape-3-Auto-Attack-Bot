@@ -527,7 +527,7 @@ int main(int argc, char *argv[])
     bd = 27;
     tol = 9;
 
-    // enemy type for auto hunt (mithril dragon is default)
+    // enemy type for auto hunt
     if(argc >= 2)
     {
         degrade = 1;
