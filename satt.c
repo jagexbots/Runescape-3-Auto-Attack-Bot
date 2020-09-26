@@ -395,7 +395,6 @@ void *inputThread(void *arg)
                     delaymicro = 10000;
                 usleep(300000);
                 printf("AUTO-CLICK: ON\n");
-                //speakS("on");
                 if(hunt == 0)
                     sendSignal(2);
             }
