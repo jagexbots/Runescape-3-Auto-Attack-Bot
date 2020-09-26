@@ -14,7 +14,7 @@ _Silent click is no more detectable than any other click method, the only thing 
 
 **If would like to set a new attack colour, hold Z and then tap V when over the target** - or the auto click will click the target.
 
-**Mouseover text should be enabled for the basic entity auto click option**, but for all else, silent click, auto-hunt, it doesn't matter. Obv the idea is to detect if you are pointing at an entity worth clicking, then it checks to see if the game created a "Mouseover text" tooltip. This is handy for auto alchemy, but for mining I would use silent click.
+**Mouseover text should be enabled for the basic entity auto click option**, but for all else, silent click, auto-hunt, it doesn't matter. Obv the idea is to detect if you are pointing at an entity worth clicking, it checks to see if the game created a "Mouseover text" tooltip. This is handy for auto alchemy, but for mining I would use silent click.
 
 ## More Information
 ```satt help```
