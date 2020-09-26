@@ -401,13 +401,9 @@ void *inputThread(void *arg)
             }
             else
             {
-                //XCloseDisplay(d);
-
                 enable = 0;
                 lx = 0, ly = 0;
                 printf("AUTO-CLICK: OFF\n");
-                //speakS("off");
-                //sendSignal(2);
                 usleep(300000);
             }
         }
@@ -419,7 +415,6 @@ void *inputThread(void *arg)
                 enable = 2;
                 nt = time(0);
                 printf("SILENT-CLICK: ON\n");
-                //speakS("silent");
                 sendSignal(2);
             }
             else
@@ -428,7 +423,6 @@ void *inputThread(void *arg)
                 nt = time(0);
                 lx = 0, ly = 0;
                 printf("SILENT-CLICK: OFF\n");
-                //speakS("regular");
                 sendSignal(2);
             }
         }
@@ -450,7 +444,6 @@ void *inputThread(void *arg)
                 nt = time(0);
                 delaymicro = 10000;
                 printf("AUTO-HUNT: OFF\n");
-                //speakS("hunt off");
                 usleep(300000);
             }
         }
