@@ -435,7 +435,6 @@ void *inputThread(void *arg)
                 nt = time(0);
                 delaymicro = 100;
                 printf("AUTO-HUNT: ON\n");
-                //speakS("hunt on");
                 usleep(300000);
             }
             else
