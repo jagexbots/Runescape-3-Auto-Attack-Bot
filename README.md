@@ -22,4 +22,4 @@ _Silent click is no more detectable than any other click method, the only thing 
 ## Install Runescape Linux Client
 ```satt install```
 
-Just setup a Unbuntu VPS, remote desktop in, install the rs3 client and get botting !
+Just setup a Ubuntu VPS, remote desktop in, install the rs3 client and get botting !
